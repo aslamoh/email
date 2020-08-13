@@ -1,0 +1,27 @@
+{
+  "name": "nodecontactfrom",
+  "version": "1.0.0",
+  "description": "node contact us email",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslamoh/email.git"
+  },
+  "author": "SMASLAM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aslamoh/email/issues"
+  },
+  "homepage": "https://github.com/aslamoh/email#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4"
+  }
+}
